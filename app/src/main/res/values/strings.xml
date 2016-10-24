@@ -1,0 +1,70 @@
+<resources>
+    <string name="app_name">DoctorsConferences</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">User</string>
+    <string name="prompt_password">Password </string>
+    <string name="action_sign_in">Sign in </string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="near_the">Near the</string>
+    <string name="title_activity_conference_detail">ConferenceDetailActivity</string>
+
+<!--action for main menu-->
+    <string name="action_addConference">Add Conference</string>
+    <string name="action_suggestConference">Suggest Conference</string>
+    <string name="action_logout">Log out</string>
+
+    <!--action for menu_user menu-->
+    <string name="action_SendInvtations">Send Invitations</string>
+
+
+    <string name="dialog_newconf_title">Create Conference</string>
+    <string name="dialog_editconf_title">Edit Conference</string>
+    <string name="dialog_newconf_message">create new conference ....</string>
+
+    <string name="dialog_newconf_string_importance">Importance</string>
+    <string name="dialog_newconf_string_title">Title</string>
+    <string name="dialog_newconf_string_body">Details</string>
+    <string name="dialog_newconf_string_place">Location</string>
+    <string name="dialog_newconf_string_time">Date</string>
+
+    <!--Fragment invitation Conferest-->
+    <string name="Toast_conference_missed">The conference has already finished, you cannot schedule the conference</string>
+    <string name="Toast_conference_created">The conference was added to you calendar</string>
+
+
+    <string-array name="arrayImportanceRateNumber_array">
+        <item>1</item>
+        <item>1.5</item>
+        <item>2</item>
+        <item>2.5</item>
+        <item>3</item>
+        <item>3.5</item>
+        <item>4</item>
+        <item>4.5</item>
+        <item>5</item>
+        <item>5.5</item>
+        <item>6</item>
+        <item>6.5</item>
+        <item>7</item>
+        <item>7.5</item>
+        <item>8</item>
+        <item>8.5</item>
+        <item>9</item>
+        <item>9.5</item>
+        <item>10</item>
+    </string-array>
+    <string name="title_activity_invite_user">InviteUser</string>
+
+</resources>

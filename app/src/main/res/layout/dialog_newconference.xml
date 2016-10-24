@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select importance number"
+                />
+            <Spinner
+                android:id="@+id/dialog_newconf_spinnerNumber"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:entries="@array/arrayImportanceRateNumber_array"
+                android:paddingBottom="16dp"/>
+
+
+            <EditText
+                android:id="@+id/dialog_newconf_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/dialog_newconf_string_title"
+                android:paddingBottom="16dp"/>
+            <EditText
+                android:id="@+id/dialog_newconf_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/dialog_newconf_string_body"
+                android:paddingBottom="16dp"/>
+            <EditText
+                android:id="@+id/dialog_newconf_place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/dialog_newconf_string_place"
+                android:paddingBottom="32dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Date and Time for the conference"
+                android:paddingBottom="16dp"
+                />
+            <DatePicker
+                android:id="@+id/dialog_newconf_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="16dp"
+                android:calendarViewShown="false"
+                />
+            <TimePicker
+                android:id="@+id/dialog_newconf_time"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+
+
+
+    <!--string name="dialog_newconf_string_time">Date</string-->
+</ScrollView>
