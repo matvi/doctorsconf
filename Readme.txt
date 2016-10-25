@@ -10,5 +10,28 @@ Readme File
    
 3.- For compile the soruce code you will need had installed JAVA JDK, ANDROID STUDIO, ADROID SKD API 23
 
-5.- 
+
+The system allow you to create conferences for doctors
+There are 2 kinds of users, admin and doctors.
+
+The admin can:
+-create,edit, delete conferences
+-can suggest new conferences
+-can invite doctors to conferences
+
+The doctor user can:
+-acept or reject conferences that was invite
+-if acept the conference it will schedule into the local calendar
+-can suggest new conferences
+
+You can log as admin with 2 users 
+Password is 123.
+-david@gmail.com  
+-dalis@gmail.com
+
+You can log in as not admin user with:
+
+-jhony@gmail.com
+
+Password is 123
  
